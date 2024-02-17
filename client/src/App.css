@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color: black;
+  background-color: lightgray;
+}
+
+
+.parallax {
+  background-image: url('/public/5594016.jpg');
+  height: 100vh;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kezdolap {
+  margin-top: 72px;
+  height: 100vh;
+  font-size: 80px;
+}
+
+.kezdolap-p-250 {
+  padding-top: 250px;
+  font-size: 120px;
+}
+
+.content {
+  background-color: #FFFFFF;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.profilkep {
+  height: 300px;
+  width: 300px;
+  padding: 0;
+  border-radius: 100%;
+}
+
+.termek-kep{
+  height: 300px;
+}
+
+.carousel-item{
+  height:500px;
+}
+
+.form-control:focus{
+  border-color: none;
+  box-shadow: 0 0 0 0.15rem lightgray;
+}
+
+
+
+.footer{
+  background-color: #E1E3E2;
+  height: 100px;
+}
