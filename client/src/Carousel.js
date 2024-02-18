@@ -9,21 +9,21 @@ function Carousel(){
                 <div className="carousel-inner rounded">
                     <div className="carousel-item active">
                         <img src="blue.jpg" className="d-block w-100" alt="blue" />
-                        <div class="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-none d-md-block">
                             <h5>Első item</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu cursus dui. Nulla pharetra lorem vitae tortor ornare rhoncus.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src="green.jpg" className="d-block w-100" alt="green" />
-                        <div class="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-none d-md-block">
                             <h5>Második item</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu cursus dui. Nulla pharetra lorem vitae tortor ornare rhoncus.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src="orange.jpg" className="d-block w-100" alt="orange" />
-                        <div class="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-none d-md-block">
                             <h5>Harmadik item</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu cursus dui. Nulla pharetra lorem vitae tortor ornare rhoncus.</p>
                         </div>

@@ -19,23 +19,23 @@ function Kapcsolat() {
                 </div>
                 <div className="col-6">
                     <form>
-                        <div class="form-group my-2">
-                            <label for="email">E-mail cím</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Saját vagy válallata e-mail címe" />
-                            <small id="emailHelp" class="form-text text-muted">E-mail címét nem osztjuk meg senkivel</small>
+                        <div className="form-group my-2">
+                            <label htmlFor="email">E-mail cím</label>
+                            <input type="email" className="form-control" id="email" aria-describedby="emailHelp" autocomplete="email" placeholder="Saját vagy válallata e-mail címe" />
+                            <small id="emailHelp" className="form-text text-muted">E-mail címét nem osztjuk meg senkivel</small>
                         </div>
 
-                        <div class="form-group my-2">
-                            <label for="nev">Név</label>
-                            <input type="text" class="form-control" id="nev" placeholder="Teljes név" />
+                        <div className="form-group my-2">
+                            <label htmlFor="name">Név</label>
+                            <input type="text"className="form-control" id="name" autocomplete="name" placeholder="Teljes név"/>
                         </div>
 
-                        <div class="form-group my-2">
-                            <label for="uzenet">Üzenet</label>
-                            <textarea type="text" class="form-control" id="nev" rows={6} placeholder="Kérdés, ajánlatkérés stb." />
+                        <div className="form-group my-2">
+                            <label htmlFor="uzenet">Üzenet</label>
+                            <textarea type="text"className="form-control" id="uzenet" rows={6} placeholder="Kérdés, ajánlatkérés stb." />
                         </div>
                         <div className="text-center">
-                            <button type="submit" class="btn btn-primary mt-3 mb-5">E-mail küldése</button>
+                            <button type="submit"className="btn btn-primary mt-3 mb-5">E-mail küldése</button>
                         </div>
                     </form>
                 </div>

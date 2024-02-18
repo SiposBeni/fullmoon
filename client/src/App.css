@@ -2,7 +2,9 @@
   text-align: center;
 }
 
-
+/**
+* Navbar
+*/
 .nav-link:hover {
   cursor: pointer;
   color: black;
@@ -13,6 +15,9 @@
   background-color: rgba(207, 207, 207, 0.493);
 }
 
+/**
+* Kezdolap
+*/
 
 .parallax {
   background-image: url('/public/5594016.jpg');
@@ -35,6 +40,9 @@
   font-size: 120px;
 }
 
+/**
+* Kik vagyunk
+*/
 .content {
   background-color: #FFFFFF;
   margin-top: 100px;
@@ -48,6 +56,10 @@
   border-radius: 100%;
 }
 
+/**
+* Termekek
+*/
+
 .termek-kep{
   height: 300px;
 }
@@ -56,6 +68,11 @@
   height:500px;
 }
 
+
+/**
+* Kapcsolat
+*/
+
 .form-control:focus{
   border-color: none;
   box-shadow: 0 0 0 0.15rem lightgray;
@@ -63,6 +80,9 @@
 
 
 
+/**
+* Lábjegyzet
+*/
 .footer{
   background-color: #E1E3E2;
   height: 100px;

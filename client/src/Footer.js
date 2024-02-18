@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <div className="footer">
-            <div class="container text-center">
+            <div className="container text-center">
                 <p className="pt-4">
                     Kötelező jogi szarok
                 </p>
